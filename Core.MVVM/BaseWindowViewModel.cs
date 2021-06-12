@@ -80,7 +80,7 @@ namespace Core.MVVM
 
             Dictionary<string, object> parameterDictionary = args.ToDictionary(x => x.Name, x => x.Value);
 
-            Arguments castleArgs = new Arguments(parameterDictionary);
+            //Arguments castleArgs = new Arguments(parameterDictionary);
 
             bool isAllowed = SecurityChecker.AmIAllowed<TControlViewModel>();
 
