@@ -1,20 +1,47 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This is a MVVM framework. Integrates power of [Reactive Programming](https://github.com/dotnet/reactive) with MVVM model for WPF application. For an effective modelling of MVVM, [Castle Windsor](https://github.com/castleproject/Windsor) used as IoC container.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Sample and Simple Application
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+You can find an appcliation sample in the project, *SimpleApp*.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Overview
+
+You can find `CodeMap.dgml` provides a visual overview for the project.
+
+* `IVisual`, `IControl`, `IWindow`, `IMessageBase`  are interfaces for View.
+
+* `IControlViewModel`, `IWindowViewModel`, are interfaces for ViewModel.
+
+* `ReactiveObject` is the implementation of `INotifyPropertyChanged` interface.
+
+* `BaseViewModel` and `BaseModel` extend `ReactiveObject` abstract class.
+
+* `BaseControlViewModel` and `BaseWindowViewModel` are extending `BaseViewModel`.
+
+* `PagedCollection<T>` is a paged collection implementation using Rx framework.
+
+* `WebFileUploader` and `WebFileDownloader` are file upload/download implementation using Rx framework.
+
+* `RxMessageBus` is message bus implementation using Rx framework, to inter-component messaging. `IMessageBase`  is the message subject interface. Message subjects should implement this empty interface.
+
+* `BackgroundThread` is non-blocking background process manager implementation using Rx framework.
+
+* `Observable<T>` is property wrapper using Rx framework.
+    ``` csharp
+    public Observable<string> Title { get; set; }
+
+    // Watching change
+
+    public BaseViewModel()
+    {
+        Title = new Observable<string>();
+
+        Title.Subscribe(x =>
+            {
+                SecurityCode = x;
+            });
+    }
+    ```
+
