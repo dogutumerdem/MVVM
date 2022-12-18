@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core.MVVM.RxAsyncCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAABQAAAAACAAIAAAAAABAAAAA=</HashCode>
+      <FileName>RxAsyncCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.MVVM.ReactiveObject" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAACAAAgAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ReactiveObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.MVVM.BaseModel" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABQAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.MVVM.BaseViewModel" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAMAAAAAAAAAAAAAAABAACAAAAAAAAAA=</HashCode>
+      <FileName>BaseViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.MVVM.BaseWindowViewModel" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACQAAAAEAAAAAAAAAAgAgACAACACAAAQ=</HashCode>
+      <FileName>BaseWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.MVVM.Observable&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAADAAACAIRAECChAAAABgAAAAAAAEAAgAAAAAAA=</HashCode>
+      <FileName>Observable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.MVVM.PagedCollection&lt;T&gt;" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAABAEQACAAAIQAAEAABAAAAAAAAIAAAAAAAAEI=</HashCode>
+      <FileName>PagedCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MVVM.RxCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAQAAAAACAAIAAAAAABAAAAA=</HashCode>
+      <FileName>RxCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.MVVM.RxMessageBus" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAMAAAAAAAAACAAAgAIAAAAAAAAA=</HashCode>
+      <FileName>RxMessageBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MVVM.WebFileDownloader" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAQAAAIAAAAAAAACAGAAAAEAAABAAAA=</HashCode>
+      <FileName>WebFileDownloader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MVVM.WebFileUploader" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAQAABIAAAgAAAAAAGAAAEAAAAAAAAA=</HashCode>
+      <FileName>WebFileUploader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MVVM.BaseControlViewModel" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAJACAAAA=</HashCode>
+      <FileName>BaseControlViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.MVVM.BackgroundThread" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAEQIQEAAIAAAAAAAACACAAAgAAABAAAAI=</HashCode>
+      <FileName>BackgroundThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Core.MVVM.IControl" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.MVVM.IControlViewModel" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAJACAAAA=</HashCode>
+      <FileName>IControlViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.MVVM.IMessageBase" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMessageBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.MVVM.IModel" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.MVVM.IBaseViewModel" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBaseViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.MVVM.ISecurityChecker" Collapsed="true">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAQAAAAAAAAAA=</HashCode>
+      <FileName>ISecurityChecker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.MVVM.IVisual" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVisual.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.MVVM.IWindow" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>IWindow.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.MVVM.IWindowViewModel" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAQAAAAEAAAAAAAAAAhAgACAACACAAAQ=</HashCode>
+      <FileName>IWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
