@@ -150,7 +150,6 @@
     <None Include="app.config" />
     <None Include="ClassDiagramAll.cd" />
     <None Include="CodeMap.dgml" />
-    <None Include="Graph1.dgml" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
